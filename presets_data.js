@@ -1649,33 +1649,33 @@ const algorithmPresets = [
     data: exec5_3
   },
   {
-    title: "2R-3C-V1 | Ex04.1",
+    title: "2R-3C-V1 | Ec05 (Ex04.1)",
     description: "A variation of Ex04 with a different approach.",
     data: exec13
   },
   {
-    title: "2R-3C-V1 | Ex05",
+    title: "2R-3C-V1 | Ex06",
     description: "A new experiment with a different approach.",
     data: exec11
   },
   {
-    title: "2R-3C-V1 | Ex06",
+    title: "2R-3C-V1 | Ex07",
     description: "A different experiment with a unique approach.",
     data: exec12
   },
 
   {
-    title: "2R-3C-V1 | Ex07",
+    title: "2R-3C-V1 | Ex08",
     description: "Return next line at 1st corner.",
     data: exec5_2
   },
   {
-    title: "2R-3C-V1 | Ex08 (exc04+exc06)",
-    description: "Ex04+Ex06",
+    title: "2R-3C-V1 | Ex09 (exc04+exc07)",
+    description: "Ex04+Ex07",
     data: exec9
   },
   {
-    title: "2R-3C-V1 | Ex09 ⚠️ BAD",
+    title: "2R-3C-V1 | Ex10 ⚠️ BAD",
     description: "⚠️ BAD — Go line, return next line (horizontal robots format).",
     data: exec6
   },
