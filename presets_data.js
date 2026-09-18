@@ -1741,6 +1741,354 @@ const exec15 = {
   ]
 };
 
+const exec16 = {
+  "number_of_robots": 2,
+  "number_of_colors": 3,
+  "visibility_range": 1,
+  "all_color_letters": [
+    ["F", 255],
+    ["L", 16711680],
+    ["R", 32768]
+  ],
+  "opacity": false,
+  "generation_mode": {
+    "ProgressiveValidationByLevels": 0
+  },
+  "goals": [
+    {
+      "initial_positions": [["L", 0, 0], ["F", -1, 0]],
+      "targets": [[1, [["L", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 1],
+      "wall": [null, null]
+    },
+    {
+      "initial_positions": [["F", 0, 0], ["L", 1, 0]],
+      "targets": [[3, [["F", 0, 0], ["R", -1, 0]], [], []]],
+      "boundary": [-2, 3, -2, 2],
+      "wall": [2, null]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", -1, 0]],
+      "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 1],
+      "wall": [null, null]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", -1, 0]],
+      "targets": [[3, [["F", -1, 1], ["L", -2, 1]], [], []]],
+      "boundary": [-3, 2, -1, 2],
+      "wall": [1, null]
+    },
+    {
+      "initial_positions": [["R", -1, 0], ["F", 0, 0]],
+      "targets": [[3, [["L", 1, -1], ["F", 0, -1]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [-2, -2]
+    },
+    {
+      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
+      "targets": [[1, [["L", 1, -1], ["F", 0, -1]], [], []]],
+      "boundary": [-2, 2, -3, 0],
+      "wall": [null, -2]
+    },
+    {
+      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
+      "targets": [[3, [["R", -2, -1], ["F", -1, -1]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [1, -2]
+    },
+    {
+      "initial_positions": [["F", -1, 0], ["R", 0, 0]],
+      "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 2],
+      "wall": [null, 1]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", 1, 0]],
+      "targets": [[3, [["R", 0, 2], ["L", 0, 1]], [], []]],
+      "boundary": [-6, 6, -6, 6],
+      "wall": [-1, -1]
+    },
+    {
+      "initial_positions": [["R", 0, 1], ["L", -1, 1]],
+      "targets": [[1, [["R", 1, 1], ["L", 0, 1]], [], []]],
+      "boundary": [-2, 2, 0, 3],
+      "wall": [null, 2]
+    },
+    {
+      "initial_positions": [["L", 0, 0], ["F", -1, 0]],
+      "targets": [[3, [["F", -1, 0], ["R", -2, 0]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [1, -2]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["R", 1, 0]],
+      "targets": [[3, [["F", 0, -1], ["F", 0, -2]], [], []]],
+      "boundary": [-2, 2, -3, 2],
+      "wall": [-1, 1]
+    },
+    {
+      "initial_positions": [["F", 0, 1], ["F", 0, 2]],
+      "targets": [[2, [["F", 1, 1], ["R", 2, 1]], [], []]],
+      "boundary": [-6, 5, 0, 3],
+      "wall": [-1, null]
+    },
+    {
+      "initial_positions": [["R", 0, -1], ["L", 0, 0]],
+      "targets": [[2, [["F", -1, -1], ["F", -2, -1]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [1, -2]
+    }
+  ]
+}
+
+const exec17 = {
+  "number_of_robots": 2,
+  "number_of_colors": 3,
+  "visibility_range": 1,
+  "all_color_letters": [
+    ["F", 255],
+    ["L", 16711680],
+    ["R", 32768]
+  ],
+  "opacity": false,
+  "generation_mode": {
+    "ProgressiveValidationByLevels": 0
+  },
+  "goals": [
+    {
+      "initial_positions": [["L", 0, 0], ["F", -1, 0]],
+      "targets": [[1, [["L", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 1],
+      "wall": [null, null]
+    },
+    {
+      "initial_positions": [["F", 0, 0], ["L", 1, 0]],
+      "targets": [[3, [["F", 0, 0], ["R", -1, 0]], [], []]],
+      "boundary": [-2, 3, -2, 2],
+      "wall": [2, null]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", -1, 0]],
+      "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 1],
+      "wall": [null, null]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", -1, 0]],
+      "targets": [[3, [["F", -1, 1], ["L", -2, 1]], [], []]],
+      "boundary": [-3, 2, -1, 2],
+      "wall": [1, null]
+    },
+    {
+      "initial_positions": [["R", -1, 0], ["F", 0, 0]],
+      "targets": [[3, [["L", 1, -1], ["F", 0, -1]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [-2, -2]
+    },
+    {
+      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
+      "targets": [[1, [["L", 1, -1], ["F", 0, -1]], [], []]],
+      "boundary": [-2, 2, -3, 0],
+      "wall": [null, -2]
+    },
+    {
+      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
+      "targets": [[3, [["R", -2, -1], ["F", -1, -1]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [1, -2]
+    },
+    {
+      "initial_positions": [["F", -1, 0], ["R", 0, 0]],
+      "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 2],
+      "wall": [null, 1]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", 1, 0]],
+      "targets": [[3, [["R", 0, 2], ["L", 0, 1]], [], []]],
+      "boundary": [-6, 6, -6, 6],
+      "wall": [-1, -1]
+    },
+    {
+      "initial_positions": [["R", 0, 1], ["L", -1, 1]],
+      "targets": [[1, [["R", 1, 1], ["L", 0, 1]], [], []]],
+      "boundary": [-2, 2, 0, 3],
+      "wall": [null, 2]
+    },
+    {
+      "initial_positions": [["R", -1, 1], ["L", -1, 0]],
+      "targets": [[3, [["F", -1, 0], ["F", -1, -1]], [], []]],
+      "boundary": [-3, 1, -2, 3],
+      "wall": [-2, 2]
+    },
+    {
+      "initial_positions": [["L", 0, 0], ["F", -1, 0]],
+      "targets": [[3, [["F", -1, 0], ["R", -2, 0]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [1, -2]
+    },
+    {
+      "initial_positions": [["F", 0, 1], ["F", 0, 2]],
+      "targets": [[2, [["F", 1, 1], ["R", 2, 1]], [], []]],
+      "boundary": [-6, 5, 0, 3],
+      "wall": [-1, null]
+    }
+  ]
+};
+const exec18 = {
+  "number_of_robots": 2,
+  "number_of_colors": 3,
+  "visibility_range": 1,
+  "all_color_letters": [
+    ["F", 255],
+    ["L", 16711680],
+    ["R", 32768]
+  ],
+  "opacity": false,
+  "generation_mode": {
+    "ProgressiveValidationByLevels": 0
+  },
+  "goals": [
+    {
+      "initial_positions": [["L", 0, 0], ["F", -1, 0]],
+      "targets": [[1, [["L", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 1],
+      "wall": [null, null]
+    },
+    {
+      "initial_positions": [["F", 0, 0], ["L", 1, 0]],
+      "targets": [[3, [["F", 0, 0], ["R", -1, 0]], [], []]],
+      "boundary": [-2, 3, -2, 2],
+      "wall": [2, null]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", -1, 0]],
+      "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 1],
+      "wall": [null, null]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", -1, 0]],
+      "targets": [[3, [["F", -1, 1], ["L", -2, 1]], [], []]],
+      "boundary": [-3, 2, -1, 2],
+      "wall": [1, null]
+    },
+    {
+      "initial_positions": [["R", -1, 0], ["F", 0, 0]],
+      "targets": [[3, [["L", 1, -1], ["F", 0, -1]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [-2, -2]
+    },
+    {
+      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
+      "targets": [[1, [["L", 1, -1], ["F", 0, -1]], [], []]],
+      "boundary": [-2, 2, -3, 0],
+      "wall": [null, -2]
+    },
+    {
+      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
+      "targets": [[3, [["R", -2, -1], ["F", -1, -1]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [1, -2]
+    },
+    {
+      "initial_positions": [["F", -1, 0], ["R", 0, 0]],
+      "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 2],
+      "wall": [null, 1]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", 1, 0]],
+      "targets": [[3, [["R", 0, 2], ["L", 0, 1]], [], []]],
+      "boundary": [-6, 6, -6, 6],
+      "wall": [-1, -1]
+    },
+    {
+      "initial_positions": [["R", 0, 1], ["L", -1, 1]],
+      "targets": [[1, [["R", 1, 1], ["L", 0, 1]], [], []]],
+      "boundary": [-2, 2, 0, 3],
+      "wall": [null, 2]
+    },
+    {
+      "initial_positions": [["R", -1, 1], ["L", -1, 0]],
+      "targets": [[3, [["F", -1, 0], ["F", -1, -1]], [], []]],
+      "boundary": [-3, 1, -2, 3],
+      "wall": [-2, 2]
+    },
+    {
+      "initial_positions": [["L", 0, 0], ["F", -1, 0]],
+      "targets": [[3, [["F", -1, 0], ["R", -2, 0]], [], []]],
+      "boundary": [-3, 2, -3, 1],
+      "wall": [1, -2]
+    },
+    {
+      "initial_positions": [["F", 0, 1], ["F", 0, 2]],
+      "targets": [[3, [["F", 1, 0], ["R", 2, 0]], [], []]],
+      "boundary": [-2, 3, -1, 3],
+      "wall": [-1, null]
+    }
+  ]
+};
+const exec19 = {
+  "number_of_robots": 2,
+  "number_of_colors": 3,
+  "visibility_range": 1,
+  "all_color_letters": [
+    ["F", 255],
+    ["L", 16711680],
+    ["R", 32768]
+  ],
+  "opacity": false,
+  "generation_mode": {
+    "ProgressiveValidationByLevels": 0
+  },
+  "goals": [
+    {
+      "initial_positions": [["L", 0, 0], ["F", -1, 0]],
+      "targets": [[1, [["L", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 1],
+      "wall": [null, null]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", -1, 0]],
+      "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -1, 1],
+      "wall": [null, null]
+    },
+    {
+      "initial_positions": [["L", 2, 0], ["F", 1, 0]],
+      "targets": [[4, [["R", 0, 2], ["F", 1, 2]], [], []]],
+      "boundary": [-1, 4, -1, 3],
+      "wall": [3, null]
+    },
+    {
+      "initial_positions": [["R", -2, 0], ["F", -1, 0]],
+      "targets": [[3, [["F", -1, -1], ["L", 0, -1]], [], []]],
+      "boundary": [-4, 1, -2, 1],
+      "wall": [-3, null]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", -1, 0]],
+      "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
+      "boundary": [-2, 2, -2, 1],
+      "wall": [null, -1]
+    },
+    {
+      "initial_positions": [["R", 0, 0], ["F", -1, 0]],
+      "targets": [[4, [["F", -1, 2], ["R", -2, 2]], [], []]],
+      "boundary": [-3, 2, -2, 3],
+      "wall": [1, -1]
+    },
+    {
+      "initial_positions": [["F", 0, 0], ["L", 1, 0]],
+      "targets": [[4, [["F", 0, 2], ["R", -1, 2]], [], [["-", 1, 2]]]],
+      "boundary": [-2, 3, -1, 4],
+      "wall": [2, 3]
+    }
+  ]
+};
+
 const algorithmPresets = [
   // ═══════════════════════════════════════════════════
   //  2r-3c-v1 (2 robots · 3 colors · visibility 1)
@@ -1793,14 +2141,34 @@ const algorithmPresets = [
     data: exec9
   },
   {
-    title: "2R-3C-V1 | Ex10 ⚠️ BAD",
+    title: "2R-3C-V1 | Ex10 | Full motif",
+    description: "A new experiment with a different approach.",
+    data: exec16
+  },
+  {
+    title: "2R-3C-V1 | Ex11 | Ressort",
+    description: "A new experiment with a different approach.",
+    data: exec19
+  },
+  {
+    title: "2R-3C-V1 | Ex11 ⚠️ BAD V1 + 2steps",
     description: "⚠️ BAD — Go line, return next line (horizontal robots format).",
     data: exec6
   },
   {
-    title: "2R-3C-V1 | Ex11 ⚠️ BAD",
+    title: "2R-3C-V1 | Ex12 ⚠️ BAD V1 +3steps",
     description: "⚠️ BAD — A new experiment with a different approach.",
     data: exec15
+  },
+  {
+    title: "2R-3C-V1 | Ex13 ⚠️ BAD V2 + 2steps",
+    description: "⚠️ BAD — A new experiment with a different approach.",
+    data: exec17
+  },
+  {
+    title: "2R-3C-V1 | Ex14 ⚠️ BAD V2 + 3steps",
+    description: "⚠️ BAD — A new experiment with a different approach.",
+    data: exec18
   },
 
   // ═══════════════════════════════════════════════════
