@@ -1804,10 +1804,10 @@ const exec16 = {
       "wall": [null, 1]
     },
     {
-      "initial_positions": [["R", 0, 0], ["F", 1, 0]],
-      "targets": [[3, [["R", 0, 2], ["L", 0, 1]], [], []]],
-      "boundary": [-6, 6, -6, 6],
-      "wall": [-1, -1]
+      "initial_positions": [["R", 0, 0], ["F", 0, -1]],
+      "targets": [[3, [["R", 2, 0], ["L", 1, 0]], [], []]],
+      "boundary": [-2, 3, -2, 2],
+      "wall": [-1, 1]
     },
     {
       "initial_positions": [["R", 0, 1], ["L", -1, 1]],
@@ -1822,15 +1822,9 @@ const exec16 = {
       "wall": [1, -2]
     },
     {
-      "initial_positions": [["R", 0, 0], ["R", 1, 0]],
-      "targets": [[3, [["F", 0, -1], ["F", 0, -2]], [], []]],
-      "boundary": [-2, 2, -3, 2],
-      "wall": [-1, 1]
-    },
-    {
       "initial_positions": [["F", 0, 1], ["F", 0, 2]],
       "targets": [[2, [["F", 1, 1], ["R", 2, 1]], [], []]],
-      "boundary": [-6, 5, 0, 3],
+      "boundary": [-2, 3, 0, 3],
       "wall": [-1, null]
     },
     {
@@ -1840,7 +1834,7 @@ const exec16 = {
       "wall": [1, -2]
     }
   ]
-}
+};
 
 const exec17 = {
   "number_of_robots": 2,
