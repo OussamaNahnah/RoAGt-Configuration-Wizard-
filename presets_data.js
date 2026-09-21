@@ -580,24 +580,6 @@ const exec5_2 ={
       "wall": [1, null]
     },
     {
-      "initial_positions": [["R", -1, 0], ["F", 0, 0]],
-      "targets": [[3, [["L", 1, -1], ["F", 0, -1]], [], []]],
-      "boundary": [-3, 2, -3, 1],
-      "wall": [-2, -2]
-    },
-    {
-      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
-      "targets": [[1, [["L", 1, -1], ["F", 0, -1]], [], []]],
-      "boundary": [-2, 2, -3, 0],
-      "wall": [null, -2]
-    },
-    {
-      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
-      "targets": [[3, [["R", -2, -1], ["F", -1, -1]], [], []]],
-      "boundary": [-3, 2, -3, 1],
-      "wall": [1, -2]
-    },
-    {
       "initial_positions": [["F", -1, 0], ["R", 0, 0]],
       "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
       "boundary": [-2, 2, -1, 2],
@@ -1139,24 +1121,6 @@ const exec9 = {
       "wall": [1, null]
     },
     {
-      "initial_positions": [["R", -1, 0], ["F", 0, 0]],
-      "targets": [[3, [["L", 1, -1], ["F", 0, -1]], [], []]],
-      "boundary": [-3, 2, -3, 1],
-      "wall": [-2, -2]
-    },
-    {
-      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
-      "targets": [[1, [["L", 1, -1], ["F", 0, -1]], [], []]],
-      "boundary": [-2, 2, -3, 0],
-      "wall": [null, -2]
-    },
-    {
-      "initial_positions": [["L", 0, -1], ["F", -1, -1]],
-      "targets": [[3, [["R", -2, -1], ["F", -1, -1]], [], []]],
-      "boundary": [-3, 2, -3, 1],
-      "wall": [1, -2]
-    },
-    {
       "initial_positions": [["F", -1, 0], ["R", 0, 0]],
       "targets": [[1, [["R", 1, 0], ["F", 0, 0]], [], []]],
       "boundary": [-2, 2, -1, 2],
@@ -1165,7 +1129,7 @@ const exec9 = {
     {
       "initial_positions": [["R", 0, 0], ["F", 1, 0]],
       "targets": [[3, [["R", 0, 2], ["L", 0, 1]], [], []]],
-      "boundary": [-6, 6, -6, 6],
+      "boundary": [-2, 3, -2, 3],
       "wall": [-1, -1]
     },
     {
@@ -1197,12 +1161,6 @@ const exec9 = {
       "targets": [[3, [["R", -1, 0], ["R", 0, 0]], [], []]],
       "boundary": [-2, 3, -2, 2],
       "wall": [2, 1]
-    },
-    {
-      "initial_positions": [["R", 0, 1], ["F", 1, 1]],
-      "targets": [[2, [["F", 0, 0], ["L", 0, -1]], [], []]],
-      "boundary": [-1, 2, -2, 3],
-      "wall": [null, 2]
     },
     {
       "initial_positions": [["R", 1, 0], ["R", 0, 0]],
@@ -2125,12 +2083,12 @@ const algorithmPresets = [
   },
 
   {
-    title: "2R-3C-V1 | Ex08",
+    title: "2R-3C-V1 | Ex08 (Ex03.1)",
     description: "Return next line at 1st corner.",
     data: exec5_2
   },
   {
-    title: "2R-3C-V1 | Ex09 (exc04+exc07)",
+    title: "2R-3C-V1 | Ex09 (Ex04.1)",
     description: "Ex04+Ex07",
     data: exec9
   },
